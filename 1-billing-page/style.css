@@ -85,6 +85,7 @@ main {
   gap: 1rem;
   margin-bottom: 2rem;
   cursor: pointer;
+  margin-left: -1rem;
 }
 
 .menu-link:hover {
@@ -97,18 +98,28 @@ main {
 .menu-icon {
   width: 2.5rem;
   height: 2.5rem;
+  margin-left: 0.7rem;
+}
+
+.logout-link {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
 }
 
 .logout-icon {
   width: 3rem;
   height: 3rem;
+  cursor: pointer;
 }
+
 .menu-area,
 .logout-area {
   font-family: "Poppins", sans-serif;
   color: #62618f;
   font-size: 1.2rem;
   font-weight: 400;
+  cursor: pointer;
 }
 
 #main-content {
@@ -125,6 +136,7 @@ h1 {
   font-weight: 700;
   font-size: 3rem;
   color: #1a194d;
+  cursor: default;
 }
 
 h2 {
@@ -132,6 +144,7 @@ h2 {
   font-weight: 700;
   font-size: 1.6rem;
   color: #1a194d;
+  cursor: default;
 }
 
 h3 {
@@ -139,6 +152,7 @@ h3 {
   font-size: 1.2rem;
   font-weight: 500;
   color: #62618f;
+  cursor: default;
 }
 
 h4 {
@@ -146,6 +160,7 @@ h4 {
   font-size: 1.3rem;
   font-weight: 500;
   color: #1a194d;
+  cursor: default;
 }
 
 button {
@@ -158,6 +173,10 @@ button {
   border: 0.1rem solid #cbcbd9;
   border-radius: 0.5rem;
   margin-right: 2rem;
+}
+
+button:active {
+  border: 0.1rem solid #9e9eac;
 }
 
 .order:hover {
@@ -219,6 +238,7 @@ button {
   flex-grow: 1;
   margin-left: 1rem;
 }
+
 .card-logo {
   padding: 0.3rem 1.1rem;
   border: 0.1rem solid #cbcbd9;
@@ -247,6 +267,7 @@ button {
   font-weight: 400;
   color: #ffffff;
   margin-bottom: 2rem;
+  cursor: default;
 }
 
 #your-plan h5 {
@@ -254,6 +275,7 @@ button {
   font-weight: 700;
   font-size: 2rem;
   color: #ffffff;
+  cursor: default;
 }
 
 #your-plan button {
@@ -261,4 +283,8 @@ button {
   background-color: #ee4d38;
   border: 0.1rem solid #ffffff;
   color: #ffffff;
+}
+
+#your-plan button:active {
+  border: 0.1rem solid #b63827;
 }
