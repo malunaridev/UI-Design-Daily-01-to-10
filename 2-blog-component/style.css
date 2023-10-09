@@ -1,0 +1,132 @@
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1e2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 44rem;
+  height: 65rem;
+  background-color: white;
+  border-radius: 1.4rem;
+  border: 1px solid black;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  top: -8rem;
+}
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+#tagsArea {
+  width: 73rem;
+  border: 12px solid #fff;
+  background: #f1e2f5;
+  box-shadow: 0px 56px 84px 0px rgba(122, 58, 173, 0.15);
+  position: absolute;
+  padding: 4rem;
+  left: -18rem;
+  top: 2rem;
+}
+.allTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.tags {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  padding: 0.8rem 1.6rem;
+  background: #fff;
+  border-radius: 1.6rem;
+  border: none;
+  transition: 0.4s;
+}
+.tags:hover {
+  transform: scale(115%);
+  background-color: rgb(211, 211, 211);
+}
+#recentPostsArea {
+  width: 59rem;
+  border: 12px solid #fff;
+  background: #f1e2f5;
+  box-shadow: 0px 56px 84px 0px rgba(122, 58, 173, 0.15);
+  border-radius: 1.2rem;
+  position: absolute;
+  bottom: -18rem;
+  left: -40rem;
+  padding: 3.2rem;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+li:hover {
+  transition: 0.4s;
+  background-color: white;
+}
+
+#searchArea {
+  width: 58rem;
+  padding: 3.2rem;
+  border: 12px solid #fff;
+  background: #f1e2f5;
+  box-shadow: 0px 56px 84px 0px rgba(122, 58, 173, 0.15);
+  position: absolute;
+  top: 36rem;
+  right: -40rem;
+  padding: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchInputArea {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 1.6rem;
+  border-radius: 1.2rem;
+}
+
+input {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  border: 0;
+  margin-left: 1rem;
+  border-radius: 1.2rem;
+}
+
+.searchButton {
+  font-family: Poppins;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.6rem;
+  border-radius: 1.6rem;
+  background-color: #1a2653;
+  padding: 1.6rem 2.4rem;
+  border: none;
+  cursor: pointer;
+}
