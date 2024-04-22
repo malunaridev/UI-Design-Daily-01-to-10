@@ -1,4 +1,4 @@
-![A pretty README header](./assets/Readme-Header.png)
+![A pretty README header](/assets/Readme-Header.png)
 <br />
 <br />
 
@@ -11,14 +11,28 @@ UI Design Daily is a project I have found on Behance first, and then I realized 
 <br />
 <br />
 <br />
+
+![Technologies used](https://github.com/malunaridev/MalunariDev/blob/master/assets/Readme-Technologies.png?raw=true) ![Tecnologias utilizadas](https://github.com/malunaridev/MalunariDev/blob/master/assets/Readme-Tecnologias.png?raw=true)
+
+<p align="center">
+  <img src="https://github.com/malunaridev/MalunariDev/blob/master/assets/Tech-HTML.png?raw=true">
+  <img src="https://github.com/malunaridev/MalunariDev/blob/master/assets/Tech-CSS.png?raw=true">
+   <img src="https://github.com/malunaridev/MalunariDev/blob/master/assets/Tech-JavaScript.png?raw=true">
+</p>
+
+- [Animate.css](https://animate.style/)
+- [Font Awesome](https://fontawesome.com/)
+
+<br />
+<br />
 <br />
 
-![Challenges List](./assets/Readme-Challenges-list.png) ![Lista de páginas](./assets/Readme-Lista.png)
+![Projects](https://github.com/malunaridev/MalunariDev/blob/master/assets/Readme-Projects.png?raw=true) ![Projetos](https://github.com/malunaridev/MalunariDev/blob/master/assets/Readme-Projetos.png?raw=true)
 
 |         |             |    
 | :-------------:|:-------------:|
-| ![Challenge #01](./1-billing-page/assets/Readme-files/Readme-Mockup.png) |   |
-| **Challenge #01:** Billing Page   |  |
+| ![Component #01](/assets/Mockup1.png) |   |
+| **Component #01:** Billing Page   |  |
 | **Code:** [📄](https://github.com/malunaridev/UI-Design-Daily-01-to-10/tree/master/1-billing-page) \| **Live Preview:** [🌐](https://udd-1-billing-page.netlify.app/) | 
 
 
@@ -26,4 +40,4 @@ UI Design Daily is a project I have found on Behance first, and then I realized 
 <br />
 <br />
 
-![A pretty README footer](assets/Readme-Footer.png)
+![A pretty README footer](https://github.com/malunaridev/MalunariDev/blob/master/assets/Readme-Footer.png?raw=true)
