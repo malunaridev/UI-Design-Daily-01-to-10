@@ -2,7 +2,7 @@
 <br />
 <br />
 
-![What is this about?](./assets/Readme-What-is-this.png)  ![Do que se trata?](./assets/Readme-Do-que-se-trata.png/)
+![Introduction](https://github.com/malunaridev/MalunariDev/blob/master/assets/Readme-Introduction.png?raw=true) ![Introdução](https://github.com/malunaridev/MalunariDev/blob/master/assets/Readme-Introducao.png?raw=true)
 
 UI Design Daily is a project I have found on Behance first, and then I realized they had an special website to keep tracking the designs. Apparently, it is a challenge for designing UI and UX screens, mostly components. I think it is a good way to keep coding everyday, so I have decided to code all them! It's a little bit scary because it has around 1700 challenges! But a great quantity of things to do always keep my excitment high!
 
